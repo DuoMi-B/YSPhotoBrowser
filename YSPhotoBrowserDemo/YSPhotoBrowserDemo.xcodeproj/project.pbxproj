@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AC648DA24AB1E2B00F4D1D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648D924AB1E2B00F4D1D5 /* AppDelegate.m */; };
+		5AC648DD24AB1E2B00F4D1D5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648DC24AB1E2B00F4D1D5 /* SceneDelegate.m */; };
+		5AC648E024AB1E2C00F4D1D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648DF24AB1E2C00F4D1D5 /* ViewController.m */; };
+		5AC648E324AB1E2C00F4D1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC648E124AB1E2C00F4D1D5 /* Main.storyboard */; };
+		5AC648E524AB1E2E00F4D1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC648E424AB1E2E00F4D1D5 /* Assets.xcassets */; };
+		5AC648E824AB1E2E00F4D1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC648E624AB1E2E00F4D1D5 /* LaunchScreen.storyboard */; };
+		5AC648EB24AB1E2E00F4D1D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648EA24AB1E2E00F4D1D5 /* main.m */; };
+		5AC648FC24AB1E5700F4D1D5 /* YSPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648F224AB1E5600F4D1D5 /* YSPhotoBrowser.m */; };
+		5AC648FD24AB1E5700F4D1D5 /* YSPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648F324AB1E5600F4D1D5 /* YSPhotoScrollView.m */; };
+		5AC648FE24AB1E5700F4D1D5 /* YSPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648F524AB1E5600F4D1D5 /* YSPhotoItem.m */; };
+		5AC648FF24AB1E5700F4D1D5 /* YSImageLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648F724AB1E5600F4D1D5 /* YSImageLoaderManager.m */; };
+		5AC6490024AB1E5700F4D1D5 /* YSImageAlertSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC648FB24AB1E5700F4D1D5 /* YSImageAlertSheetView.m */; };
+		CDF052F14B5E130E8A6064AC /* Pods_YSPhotoBrowserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF32B767ED69734F587251F /* Pods_YSPhotoBrowserDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0774AD0B1E2C13581D856909 /* Pods-YSPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPhotoBrowserDemo.release.xcconfig"; path = "Target Support Files/Pods-YSPhotoBrowserDemo/Pods-YSPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2BF32B767ED69734F587251F /* Pods_YSPhotoBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSPhotoBrowserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC648D524AB1E2B00F4D1D5 /* YSPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC648D824AB1E2B00F4D1D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AC648D924AB1E2B00F4D1D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AC648DB24AB1E2B00F4D1D5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5AC648DC24AB1E2B00F4D1D5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5AC648DE24AB1E2B00F4D1D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AC648DF24AB1E2C00F4D1D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AC648E224AB1E2C00F4D1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AC648E424AB1E2E00F4D1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AC648E724AB1E2E00F4D1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AC648E924AB1E2E00F4D1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC648EA24AB1E2E00F4D1D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AC648F224AB1E5600F4D1D5 /* YSPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSPhotoBrowser.m; sourceTree = "<group>"; };
+		5AC648F324AB1E5600F4D1D5 /* YSPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSPhotoScrollView.m; sourceTree = "<group>"; };
+		5AC648F424AB1E5600F4D1D5 /* YSPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSPhotoItem.h; sourceTree = "<group>"; };
+		5AC648F524AB1E5600F4D1D5 /* YSPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSPhotoItem.m; sourceTree = "<group>"; };
+		5AC648F624AB1E5600F4D1D5 /* YSImageAlertSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSImageAlertSheetView.h; sourceTree = "<group>"; };
+		5AC648F724AB1E5600F4D1D5 /* YSImageLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSImageLoaderManager.m; sourceTree = "<group>"; };
+		5AC648F824AB1E5600F4D1D5 /* YSPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSPhotoBrowser.h; sourceTree = "<group>"; };
+		5AC648F924AB1E5600F4D1D5 /* YSImageLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSImageLoaderManager.h; sourceTree = "<group>"; };
+		5AC648FA24AB1E5700F4D1D5 /* YSPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSPhotoScrollView.h; sourceTree = "<group>"; };
+		5AC648FB24AB1E5700F4D1D5 /* YSImageAlertSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSImageAlertSheetView.m; sourceTree = "<group>"; };
+		801FD83EDF2F743915CDAC2E /* Pods-YSPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPhotoBrowserDemo.debug.xcconfig"; path = "Target Support Files/Pods-YSPhotoBrowserDemo/Pods-YSPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AC648D224AB1E2B00F4D1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF052F14B5E130E8A6064AC /* Pods_YSPhotoBrowserDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1177C5EE4B0F6C59AF00751F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				801FD83EDF2F743915CDAC2E /* Pods-YSPhotoBrowserDemo.debug.xcconfig */,
+				0774AD0B1E2C13581D856909 /* Pods-YSPhotoBrowserDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5AC648CC24AB1E2B00F4D1D5 = {
+			isa = PBXGroup;
+			children = (
+				5AC648D724AB1E2B00F4D1D5 /* YSPhotoBrowserDemo */,
+				5AC648D624AB1E2B00F4D1D5 /* Products */,
+				1177C5EE4B0F6C59AF00751F /* Pods */,
+				8E7014E88C75C320B4B8FDC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AC648D624AB1E2B00F4D1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AC648D524AB1E2B00F4D1D5 /* YSPhotoBrowserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AC648D724AB1E2B00F4D1D5 /* YSPhotoBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5AC648F124AB1E4500F4D1D5 /* lib */,
+				5AC648D824AB1E2B00F4D1D5 /* AppDelegate.h */,
+				5AC648D924AB1E2B00F4D1D5 /* AppDelegate.m */,
+				5AC648DB24AB1E2B00F4D1D5 /* SceneDelegate.h */,
+				5AC648DC24AB1E2B00F4D1D5 /* SceneDelegate.m */,
+				5AC648DE24AB1E2B00F4D1D5 /* ViewController.h */,
+				5AC648DF24AB1E2C00F4D1D5 /* ViewController.m */,
+				5AC648E124AB1E2C00F4D1D5 /* Main.storyboard */,
+				5AC648E424AB1E2E00F4D1D5 /* Assets.xcassets */,
+				5AC648E624AB1E2E00F4D1D5 /* LaunchScreen.storyboard */,
+				5AC648E924AB1E2E00F4D1D5 /* Info.plist */,
+				5AC648EA24AB1E2E00F4D1D5 /* main.m */,
+			);
+			path = YSPhotoBrowserDemo;
+			sourceTree = "<group>";
+		};
+		5AC648F124AB1E4500F4D1D5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5AC648F624AB1E5600F4D1D5 /* YSImageAlertSheetView.h */,
+				5AC648FB24AB1E5700F4D1D5 /* YSImageAlertSheetView.m */,
+				5AC648F924AB1E5600F4D1D5 /* YSImageLoaderManager.h */,
+				5AC648F724AB1E5600F4D1D5 /* YSImageLoaderManager.m */,
+				5AC648F824AB1E5600F4D1D5 /* YSPhotoBrowser.h */,
+				5AC648F224AB1E5600F4D1D5 /* YSPhotoBrowser.m */,
+				5AC648F424AB1E5600F4D1D5 /* YSPhotoItem.h */,
+				5AC648F524AB1E5600F4D1D5 /* YSPhotoItem.m */,
+				5AC648FA24AB1E5700F4D1D5 /* YSPhotoScrollView.h */,
+				5AC648F324AB1E5600F4D1D5 /* YSPhotoScrollView.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8E7014E88C75C320B4B8FDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF32B767ED69734F587251F /* Pods_YSPhotoBrowserDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AC648D424AB1E2B00F4D1D5 /* YSPhotoBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC648EE24AB1E2E00F4D1D5 /* Build configuration list for PBXNativeTarget "YSPhotoBrowserDemo" */;
+			buildPhases = (
+				CAF5150826C230F89EE5115F /* [CP] Check Pods Manifest.lock */,
+				5AC648D124AB1E2B00F4D1D5 /* Sources */,
+				5AC648D224AB1E2B00F4D1D5 /* Frameworks */,
+				5AC648D324AB1E2B00F4D1D5 /* Resources */,
+				2AD6BBF6221C1BC627041D8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSPhotoBrowserDemo;
+			productName = YSPhotoBrowserDemo;
+			productReference = 5AC648D524AB1E2B00F4D1D5 /* YSPhotoBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AC648CD24AB1E2B00F4D1D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "DuoMi-B";
+				TargetAttributes = {
+					5AC648D424AB1E2B00F4D1D5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 5AC648D024AB1E2B00F4D1D5 /* Build configuration list for PBXProject "YSPhotoBrowserDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AC648CC24AB1E2B00F4D1D5;
+			productRefGroup = 5AC648D624AB1E2B00F4D1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AC648D424AB1E2B00F4D1D5 /* YSPhotoBrowserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AC648D324AB1E2B00F4D1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC648E824AB1E2E00F4D1D5 /* LaunchScreen.storyboard in Resources */,
+				5AC648E524AB1E2E00F4D1D5 /* Assets.xcassets in Resources */,
+				5AC648E324AB1E2C00F4D1D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AD6BBF6221C1BC627041D8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSPhotoBrowserDemo/Pods-YSPhotoBrowserDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSPhotoBrowserDemo/Pods-YSPhotoBrowserDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSPhotoBrowserDemo/Pods-YSPhotoBrowserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF5150826C230F89EE5115F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YSPhotoBrowserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AC648D124AB1E2B00F4D1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC648FC24AB1E5700F4D1D5 /* YSPhotoBrowser.m in Sources */,
+				5AC648E024AB1E2C00F4D1D5 /* ViewController.m in Sources */,
+				5AC648FF24AB1E5700F4D1D5 /* YSImageLoaderManager.m in Sources */,
+				5AC648FD24AB1E5700F4D1D5 /* YSPhotoScrollView.m in Sources */,
+				5AC648DA24AB1E2B00F4D1D5 /* AppDelegate.m in Sources */,
+				5AC648FE24AB1E5700F4D1D5 /* YSPhotoItem.m in Sources */,
+				5AC648EB24AB1E2E00F4D1D5 /* main.m in Sources */,
+				5AC648DD24AB1E2B00F4D1D5 /* SceneDelegate.m in Sources */,
+				5AC6490024AB1E5700F4D1D5 /* YSImageAlertSheetView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AC648E124AB1E2C00F4D1D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC648E224AB1E2C00F4D1D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AC648E624AB1E2E00F4D1D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC648E724AB1E2E00F4D1D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AC648EC24AB1E2E00F4D1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AC648ED24AB1E2E00F4D1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AC648EF24AB1E2E00F4D1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801FD83EDF2F743915CDAC2E /* Pods-YSPhotoBrowserDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWB5NQ5S3B;
+				INFOPLIST_FILE = YSPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DuoMi-B.YSPhotoBrowserDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AC648F024AB1E2E00F4D1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0774AD0B1E2C13581D856909 /* Pods-YSPhotoBrowserDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWB5NQ5S3B;
+				INFOPLIST_FILE = YSPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DuoMi-B.YSPhotoBrowserDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AC648D024AB1E2B00F4D1D5 /* Build configuration list for PBXProject "YSPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC648EC24AB1E2E00F4D1D5 /* Debug */,
+				5AC648ED24AB1E2E00F4D1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AC648EE24AB1E2E00F4D1D5 /* Build configuration list for PBXNativeTarget "YSPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC648EF24AB1E2E00F4D1D5 /* Debug */,
+				5AC648F024AB1E2E00F4D1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AC648CD24AB1E2B00F4D1D5 /* Project object */;
+}
