@@ -76,7 +76,7 @@ const CGFloat kBLPhotoViewPadding = 10;
 const CGFloat kBLPhotoViewMaxScale = 3;
 @interface YSPhotoScrollView ()<UIScrollViewDelegate,UIGestureRecognizerDelegate>
 
-@property (nonatomic, strong, readwrite) UIImageView *imageView;
+@property (nonatomic, strong, readwrite) FLAnimatedImageView *imageView;
 @property (nonatomic, strong, readwrite) YSProgressView *progressView;
 @property (nonatomic, strong, readwrite) YSPhotoItem *item;
 @property (nonatomic, strong) id<YSImageLoaderManagerDelegate> imageLoaderManagerDelegate;
@@ -97,7 +97,7 @@ const CGFloat kBLPhotoViewMaxScale = 3;
         if (@available(iOS 11.0, *)) {
             self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
-        _imageView = [[UIImageView alloc] init];
+        _imageView = [[FLAnimatedImageView alloc] init];
         _imageView.clipsToBounds = YES;
         [self addSubview:_imageView];
         [self resizeImageView];
@@ -140,14 +140,16 @@ const CGFloat kBLPhotoViewMaxScale = 3;
         
         _imageView.image = item.thumbImage;
         [_imageLoaderManagerDelegate setImageForImageView:_imageView withURL:item.imageUrl placeholder:item.thumbImage progress:progressBlock completion:^(UIImage *image, NSURL *url, BOOL finished, NSError *error) {
-            __strong typeof(wself) sself = wself;
-            if (finished) {
-                [sself resizeImageView];
-            }
-            [sself.progressView stopSpin];
-            sself.progressView.hidden = YES;
-            sself.item.finished = YES;
-        }];
+                    __strong typeof(wself) sself = wself;
+                    if (finished) {
+                        [sself resizeImageView];
+                    }
+                    [sself.progressView stopSpin];
+                    sself.progressView.hidden = YES;
+                    sself.item.finished = YES;
+                }];
+   
+
     } else {
         [_progressView stopSpin];
         _progressView.hidden = YES;

@@ -6,5 +6,6 @@ target 'YSPhotoBrowserDemo' do
   use_frameworks!
 
   # Pods for YSPhotoBrowserDemo
-  pod 'SDWebImage'
+  pod 'SDWebImage/Core'
+  pod 'SDWebImage/GIF'
 end

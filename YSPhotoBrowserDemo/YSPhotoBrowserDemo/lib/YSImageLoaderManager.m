@@ -7,7 +7,7 @@
 //
 
 #import "YSImageLoaderManager.h"
-#import <SDWebImage/UIView+WebCache.h>
+
 
 
 @implementation YSImageLoaderManager
@@ -27,7 +27,6 @@
 {
 
     SDWebImageOptions options = 1;
-    
     [imageView sd_setImageWithURL:imageURL placeholderImage:placeholder options:options progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
         if (progress) {
             progress(receivedSize, expectedSize);
@@ -37,6 +36,7 @@
             completion(image, imageURL, !error, error);
         }
     }];
+
 }
 
 - (void)cancelImageRequestForImageView:(UIImageView *)imageView {

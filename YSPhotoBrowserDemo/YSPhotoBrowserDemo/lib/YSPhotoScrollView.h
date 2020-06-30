@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YSImageLoaderManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -23,7 +24,8 @@ extern const CGFloat kBLPhotoViewPadding;
 @class YSPhotoItem;
 @interface YSPhotoScrollView : UIScrollView
 
-@property (nonatomic, strong, readonly) UIImageView *imageView;
+@property (nonatomic, strong, readonly) FLAnimatedImageView *imageView;
+//@property (nonatomic, strong, readonly) FLAnimatedImageView *flImageView;
 @property (nonatomic, strong, readonly) YSProgressView *progressView;
 @property (nonatomic, strong, readonly) YSPhotoItem *item;
 

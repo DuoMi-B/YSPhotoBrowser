@@ -11,9 +11,13 @@
 #if __has_include(<SDWebImage/SDWebImageManager.h>)
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/FLAnimatedImageView+WebCache.h>
+#import <SDWebImage/UIView+WebCache.h>
 #else
 #import "UIImageView+WebCache.h"
 #import "SDWebImageManager.h"
+#import "FLAnimatedImageView+WebCache.h"
+#import "UIView+WebCache.h"
 #endif
 
 typedef void (^ProgressBlock)(NSInteger receivedSize, NSInteger expectedSize);
