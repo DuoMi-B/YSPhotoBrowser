@@ -51,7 +51,7 @@
     UIImageView *demo3 = [[UIImageView alloc] init];
     demo3.tag = 3;
     demo3.frame = CGRectMake(0, 320, [UIScreen mainScreen].bounds.size.width, 150);
-    [demo3 sd_setImageWithURL:[NSURL URLWithString:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593515339243&di=f7580d099f64486d8b2832dd28a00fea&imgtype=0&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3493072291%2C204752200%26fm%3D214%26gp%3D0.jpg"] completed:nil];
+    [demo3 sd_setImageWithURL:[NSURL URLWithString:@"http://pic1.win4000.com/wallpaper/2017-11-17/5a0e8fc38dcc3.jpg"] completed:nil];
     demo3.userInteractionEnabled = YES;
     [self.view addSubview:demo3];
     self.demo3 = demo3;
@@ -76,7 +76,7 @@
 - (void)tap:(UITapGestureRecognizer *)tap{
     YSPhotoItem *item1 = [[YSPhotoItem alloc] initWithSourceView:self.demo1 image:self.demo1.image];
     YSPhotoItem *item2 = [[YSPhotoItem alloc] initWithSourceView:self.demo2 image:self.demo2.image];
-    YSPhotoItem *item3 = [[YSPhotoItem alloc] initWithSourceView:self.demo3 imageUrl:[NSURL URLWithString:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593515339243&di=f7580d099f64486d8b2832dd28a00fea&imgtype=0&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3493072291%2C204752200%26fm%3D214%26gp%3D0.jpg"]];
+    YSPhotoItem *item3 = [[YSPhotoItem alloc] initWithSourceView:self.demo3 imageUrl:[NSURL URLWithString:@"http://pic1.win4000.com/wallpaper/2017-11-17/5a0e8fc38dcc3.jpg"]];
     
       YSPhotoItem *item4 = [[YSPhotoItem alloc] initWithSourceView:self.demo4 imageUrl:[NSURL URLWithString:@"http://b-ssl.duitang.com/uploads/item/201702/18/20170218161710_wiVcE.gif"]];
     
